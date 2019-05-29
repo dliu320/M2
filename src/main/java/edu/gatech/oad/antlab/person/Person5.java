@@ -32,7 +32,7 @@ public class Person5 {
 	private String calc(String input) {
 	  //Person 5 put your implementation here
 		if (input.length() <= 2) {
-			reutrn input;
+			return  input;
 		} else {
 			return input.substring(2) + input.substring(0, 2);
 		}
